@@ -1,1 +1,61 @@
+[noscroll]{
+  --overflow: hidden;    
+}
 
+
+.screen-section{
+  // display: grid;
+  height: 30%;
+  background: #fff;
+  padding:10% 5%;
+
+  h1{
+      font-size: 4rem;
+      color:rgb(94, 96, 97);
+  }
+  h3{
+      color:#B9BBBD;
+      font-size: 2rem;
+  }
+
+  h3,h1{       
+      text-align: right;
+      line-height: 100%;
+  }
+}
+
+.button-section{
+  height: 70%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  button {      
+      background-color: #fff;
+      border-width: thin;
+      border: solid 0.5px  #ECEDF4;
+      background-color: transparent;
+      font-size: 2rem;
+      color: #6A6D71;     
+    }
+
+
+    .operator {
+      color: #fff;
+      background: #283B50;
+    }
+
+    .special-operator{
+      background: #F3F9FF;
+    }
+    
+    .zero-button {
+      grid-column-start: 1;
+      grid-column-end: 3;      
+    }
+
+    .equal-sign {
+      background-color:#51C9CA;
+      border-color: #51C9CA;
+      color: #fff;
+    }
+
+}
